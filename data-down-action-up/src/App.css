@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-color: #182a34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  background-color: #182a34;
+}
+
+button:active {
+  background-color: #2a353b;
+}
+
+.main {
+  background-color: #112c34;
+  padding: 40px;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  border: 2px solid white;
+}
